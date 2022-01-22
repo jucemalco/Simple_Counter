@@ -10,7 +10,7 @@ function SimpleCounter(props) {
 	return (
 		<div className="relojDigital">
 			<div className="calendar"></div>
-			<i className="far fa-clock"></i>
+			<i class="far fa-clock"></i>
 			<div className="cuatro">{props.digitoCuatro % 10}</div>
 			<div className="tercero">{props.digitoTres % 10}</div>
 			<div className="segundo">{props.digitoDos % 10}</div>
